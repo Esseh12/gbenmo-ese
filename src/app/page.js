@@ -152,7 +152,7 @@ export default function MaintenancePage() {
 							</span>
 						</div>
 
-						<div className='grid grid-cols-4 gap-4 md:gap-8 max-w-2xl mx-auto'>
+						<div className='grid grid-cols-4 gap-2 sm:gap-4 md:gap-8 max-w-2xl mx-auto'>
 							{[
 								{ value: timeLeft.days, label: 'Days' },
 								{ value: timeLeft.hours, label: 'Hours' },
@@ -168,7 +168,7 @@ export default function MaintenancePage() {
 									<div className='text-xl sm:text-3xl md:text-5xl font-bold text-white mb-2 animate-pulse'>
 										{String(item.value).padStart(2, '0')}
 									</div>
-									<div className='text-sm md:text-base text-purple-300 uppercase tracking-wide'>
+									<div className='text-[10px] sm:text-sm md:text-base text-purple-300 uppercase tracking-wide'>
 										{item.label}
 									</div>
 								</div>
