@@ -128,7 +128,7 @@ export default function MaintenancePage() {
 
 					{/* Main heading with gradient text */}
 					<div className='space-y-4'>
-						<h1 className='text-6xl md:text-8xl font-bold bg-gradient-to-r from-purple-400 via-white to-purple-600 bg-clip-text text-transparent animate-pulse'>
+						<h1 className='text-3xl sm:text-6xl md:text-8xl font-bold bg-gradient-to-r from-purple-400 via-white to-purple-600 bg-clip-text text-transparent animate-pulse'>
 							Under Construction
 						</h1>
 						<div className='h-1 w-32 mx-auto bg-gradient-to-r from-purple-400 to-pink-400 rounded-full animate-pulse'></div>
@@ -165,7 +165,7 @@ export default function MaintenancePage() {
 									style={{
 										animationDelay: `${index * 0.1}s`,
 									}}>
-									<div className='text-3xl md:text-5xl font-bold text-white mb-2 animate-pulse'>
+									<div className='text-xl sm:text-3xl md:text-5xl font-bold text-white mb-2 animate-pulse'>
 										{String(item.value).padStart(2, '0')}
 									</div>
 									<div className='text-sm md:text-base text-purple-300 uppercase tracking-wide'>
