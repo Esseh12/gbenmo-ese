@@ -12,15 +12,14 @@ export default function About() {
 
 			<div className='text-[#8b9cba] '>
 				<p className='mb-4'>
-					I’m a developer driven by the challenge of building accessible,
-					pixel-perfect interfaces that unite thoughtful design with strong
-					engineering. I thrive at the intersection of design and development,
-					creating experiences that are not only visually appealing but also
-					carefully optimized for performance and usability.
+					I’m a developer passionate about building accessible, pixel-perfect
+					interfaces that balance thoughtful design with robust engineering. I
+					enjoy working where design and development meet, creating experiences
+					that are visually engaging and optimized for performance.
 				</p>
 
 				<p className='mb-4'>
-					I’m a Frontend Engineer and Product Designer currently building a{' '}
+					Currently, I’m building a{' '}
 					<a
 						className='font-medium text-slate-200 hover:text-purple-400 focus-visible:text-purple-400'
 						href='#'>
@@ -32,14 +31,14 @@ export default function About() {
 						href='#'>
 						AI Community Manager
 					</a>
-					. In the past, I’ve worked on several production-level applications
-					across different industries, often handling projects end-to-end.
+					. Previously, I’ve delivered production-level applications across
+					various industries, often taking projects from design to deployment.
 				</p>
 
 				<p className='mb-4'>
-					While working at an HMO company as the sole frontend developer, I was
-					tasked with building many of their core business applications. Some of
-					the key systems I developed include:
+					At an HMO company, I served as the sole frontend developer, building
+					core business tools such as a Waiting Time Tracking System, Staff
+					Management System, and Tariff Management System.
 				</p>
 
 				<ul className='list-disc list-inside mb-4 space-y-2'>

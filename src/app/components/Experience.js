@@ -6,7 +6,7 @@ export default function Experience() {
 			period: 'May 2024 — Present',
 			title: 'Frontend Engineer',
 			company: 'Salariopay',
-			companyUrl: '#',
+			companyUrl: 'https://www.salariopay.com/',
 			description:
 				'Build and maintain user-facing features for the company’s payroll and HR tools. Led the development of the Integration Marketplace and collaborated closely with designers and backend engineers to deliver pixel-perfect, high-performance interfaces with accessibility and responsiveness in mind.',
 			technologies: [
@@ -22,7 +22,7 @@ export default function Experience() {
 			period: 'Jan 2022 — Apr 2024',
 			title: 'Software Developer',
 			company: 'Metro Health HMO',
-			companyUrl: '#',
+			companyUrl: 'https://metrohealthhmo.com/',
 			description:
 				'Built core in-house software to streamline operations and improve business workflows. Developed an HR onboarding system and other internal tools while collaborating with cross-functional teams to deliver scalable, user-friendly solutions.',
 			technologies: ['JavaScript', 'TypeScript', 'React', 'Node.js', 'Next.js'],

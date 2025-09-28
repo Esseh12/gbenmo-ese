@@ -120,9 +120,9 @@ export default function Projects() {
 
 				<div className='mt-12'>
 					<a
-						className='inline-flex items-center font-medium leading-tight text-slate-200 font-semibold text-slate-200 group'
+						className='inline-flex items-center leading-tight  font-semibold text-slate-200 group'
 						aria-label='View Full Project Archive'
-						href='/archive'>
+						href='#'>
 						<span>
 							<span className='border-b border-transparent pb-px transition group-hover:border-purple-400 motion-reduce:transition-none'>
 								View Full Project{' '}
