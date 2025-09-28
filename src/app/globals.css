@@ -2,7 +2,7 @@
 
 :root {
 	--background: #ffffff;
-	--foreground: #171717;
+	--foreground: #101b35;
 }
 
 @theme inline {
@@ -14,7 +14,7 @@
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--background: #0a0a0a;
+		--background: #101b35;
 		--foreground: #ededed;
 	}
 }
@@ -22,17 +22,4 @@
 body {
 	background: var(--background);
 	color: var(--foreground);
-	font-family: Arial, Helvetica, sans-serif;
-}
-
-@keyframes spin-slow {
-	from {
-		transform: rotate(0deg);
-	}
-	to {
-		transform: rotate(360deg);
-	}
-}
-.animate-spin-slow {
-	animation: spin-slow 4s linear infinite;
 }
