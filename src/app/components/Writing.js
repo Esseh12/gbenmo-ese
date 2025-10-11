@@ -4,10 +4,18 @@ import { Icon } from '@iconify/react';
 export default function Writing() {
 	const articles = [
 		{
+			year: '2025',
+			title:
+				'Bitcoin Explained: Your First Step into the Wild World of Digital Money',
+			url: 'https://medium.com/@gbenmoese788/bitcoin-explained-your-first-step-into-the-wild-world-of-digital-money-50ad14097a78',
+			image: '/blog-1.webp',
+			alt: 'Bitcoin concept illustration',
+		},
+		{
 			year: '2024',
 			title: 'The Magic of DNS: Transforming Domain Names into IP Addresses',
 			url: 'https://medium.com/@gbenmoese788/the-magic-of-dns-transforming-domain-names-into-ip-addresses-172aebdb1ce2',
-			image: '/blog-1.webp',
+			image: '/blog-2.webp',
 			alt: 'DNS concept illustration',
 		},
 	];
