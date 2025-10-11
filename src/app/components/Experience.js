@@ -3,7 +3,7 @@ import { Icon } from '@iconify/react';
 export default function Experience() {
 	const experiences = [
 		{
-			period: 'May 2024 — Present',
+			period: 'June 2024 — Present',
 			title: 'Frontend Engineer',
 			company: 'Salariopay',
 			companyUrl: 'https://www.salariopay.com/',
@@ -19,7 +19,7 @@ export default function Experience() {
 			],
 		},
 		{
-			period: 'Jan 2022 — Apr 2024',
+			period: 'Jan 2024 — June 2024',
 			title: 'Software Developer',
 			company: 'Metro Health HMO',
 			companyUrl: 'https://metrohealthhmo.com/',
@@ -28,7 +28,7 @@ export default function Experience() {
 			technologies: ['JavaScript', 'TypeScript', 'React', 'Node.js', 'Next.js'],
 		},
 		{
-			period: 'Oct 2021 — Dec 2021',
+			period: 'Jan 2023 — Dec 2023',
 			title: 'Frontend Engineer',
 			company: 'Mauritius Commercial Bank (MCB)',
 			companyUrl: '#',
