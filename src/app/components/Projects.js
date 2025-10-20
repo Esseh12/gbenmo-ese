@@ -122,7 +122,7 @@ export default function Projects() {
 					<a
 						className='inline-flex items-center leading-tight  font-semibold text-slate-200 group'
 						aria-label='View Full Project Archive'
-						href='#'>
+						href='/projects'>
 						<span>
 							<span className='border-b border-transparent pb-px transition group-hover:border-purple-400 motion-reduce:transition-none'>
 								View Full Project{' '}

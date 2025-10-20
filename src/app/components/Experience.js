@@ -36,6 +36,15 @@ export default function Experience() {
 				'Migrated the MCB website from HTML/CSS/JavaScript to React to improve maintainability and performance. Implemented responsive components and front-end features to improve customer experience.',
 			technologies: ['React', 'TypeScript', 'JavaScript', 'HTML', 'CSS'],
 		},
+		{
+			period: 'Jan 2022 — Oct 2022',
+			title: 'Software Engineering Trainee',
+			company: 'ALX Africa',
+			companyUrl: '#',
+			description:
+				'Completed an intensive software engineering program focused on C, Python, and JavaScript. Built real-world projects including a custom shell clone, an Airbnb console, and an aggregate transport system that consolidates multiple transport services.',
+			technologies: ['C', 'Python', 'JavaScript', 'HTML', 'CSS'],
+		},
 	];
 
 	return (
