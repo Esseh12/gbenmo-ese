@@ -1,52 +1,7 @@
 import { Icon } from '@iconify/react';
+import { experiences } from '@/app/utils/utils';
 
 export default function Experience() {
-	const experiences = [
-		{
-			period: 'June 2024 — Present',
-			title: 'Frontend Engineer',
-			company: 'Salariopay',
-			companyUrl: 'https://www.salariopay.com/',
-			description:
-				'Build and maintain user-facing features for the company’s payroll and HR tools. Led the development of the Integration Marketplace and collaborated closely with designers and backend engineers to deliver pixel-perfect, high-performance interfaces with accessibility and responsiveness in mind.',
-			technologies: [
-				'React',
-				'Redux',
-				'TypeScript',
-				'JavaScript',
-				'Tailwind CSS',
-				'jQuery',
-			],
-		},
-		{
-			period: 'Jan 2024 — June 2024',
-			title: 'Software Developer',
-			company: 'Metro Health HMO',
-			companyUrl: 'https://metrohealthhmo.com/',
-			description:
-				'Built core in-house software to streamline operations and improve business workflows. Developed an HR onboarding system and other internal tools while collaborating with cross-functional teams to deliver scalable, user-friendly solutions.',
-			technologies: ['JavaScript', 'TypeScript', 'React', 'Node.js', 'Next.js'],
-		},
-		{
-			period: 'Jan 2023 — Dec 2023',
-			title: 'Frontend Engineer',
-			company: 'Mauritius Commercial Bank (MCB)',
-			companyUrl: '#',
-			description:
-				'Migrated the MCB website from HTML/CSS/JavaScript to React to improve maintainability and performance. Implemented responsive components and front-end features to improve customer experience.',
-			technologies: ['React', 'TypeScript', 'JavaScript', 'HTML', 'CSS'],
-		},
-		{
-			period: 'Jan 2022 — Oct 2022',
-			title: 'Software Engineering Trainee',
-			company: 'ALX Africa',
-			companyUrl: '#',
-			description:
-				'Completed an intensive software engineering program focused on C, Python, and JavaScript. Built real-world projects including a custom shell clone, an Airbnb console, and an aggregate transport system that consolidates multiple transport services.',
-			technologies: ['C', 'Python', 'JavaScript', 'HTML', 'CSS'],
-		},
-	];
-
 	return (
 		<section
 			id='experience'

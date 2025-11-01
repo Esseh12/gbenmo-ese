@@ -87,3 +87,57 @@ export const projects = [
 		link: 'skillboost-academy.vercel.app',
 	},
 ];
+
+export const experiences = [
+	{
+		period: 'May 2024 – Present',
+		title: 'Frontend Engineer',
+		company: 'Salariopay',
+		companyUrl: 'https://salariopay.com',
+		description:
+			'Building and maintaining user-facing features for payroll and HR tools. Led the development of the Integration Marketplace, enabling users to connect with third-party HR and finance tools. Worked closely with designers and backend engineers to deliver pixel-perfect, high-performance interfaces.',
+		technologies: [
+			'React',
+			'Redux',
+			'TypeScript',
+			'JavaScript',
+			'Tailwind CSS',
+			'jQuery',
+		],
+	},
+	{
+		period: 'Jan 2022 – Apr 2024',
+		title: 'Software Developer',
+		company: 'Metro Health HMO',
+		companyUrl: 'https://metrohealthhmo.com',
+		description:
+			'Built in-house software to streamline operations and improve business workflows. Developed an HR onboarding system used across the organization. Collaborated with cross-functional teams to deliver scalable and user-friendly solutions.',
+		technologies: ['JavaScript', 'TypeScript', 'React', 'Node.js', 'Next.js'],
+	},
+	{
+		period: 'Oct 2021 – Dec 2021',
+		title: 'Frontend Engineer',
+		company: 'Mauritius Commercial Bank (MCB)',
+		companyUrl: 'https://www.mcbgroup.com',
+		description:
+			'Migrated the company website from plain HTML/CSS/JS to React, improving maintainability and performance. Built reusable, responsive UI components and implemented new front-end features independently.',
+		technologies: ['React', 'TypeScript', 'JavaScript', 'HTML', 'CSS'],
+	},
+	{
+		period: 'Oct 2021 – Dec 2021',
+		title: 'Frontend Engineering Trainee',
+		company: 'ALX Africa',
+		companyUrl: 'https://www.alxafrica.com',
+		description:
+			'Completed an intensive software engineering program focused on modern frontend development, collaboration, version control, and real-world project delivery.',
+		technologies: [
+			'JavaScript',
+			'React',
+			'Git',
+			'Agile',
+			'Team Collaboration',
+			'C',
+			'Python',
+		],
+	},
+];

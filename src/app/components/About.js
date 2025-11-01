@@ -10,16 +10,17 @@ export default function About() {
 				</h2>
 			</div>
 
-			<div className='text-[#8b9cba] '>
+			<div className='text-[#8b9cba]'>
 				<p className='mb-4'>
-					I’m a developer passionate about building accessible, pixel-perfect
-					interfaces that balance thoughtful design with robust engineering. I
-					enjoy working where design and development meet, creating experiences
-					that are visually engaging and optimized for performance.
+					I’m a frontend developer with a focus on building accessible,
+					pixel-perfect interfaces that blend thoughtful design with clean,
+					maintainable engineering. I enjoy working at the intersection of
+					design and development — turning ideas into smooth, user-centered
+					experiences.
 				</p>
 
 				<p className='mb-4'>
-					Currently, I’m building a{' '}
+					Recently, I’ve worked on projects like a{' '}
 					<a
 						className='font-medium text-slate-200 hover:text-purple-400 focus-visible:text-purple-400'
 						href='#'>
@@ -31,52 +32,50 @@ export default function About() {
 						href='#'>
 						AI Community Manager
 					</a>
-					. Previously, I’ve delivered production-level applications across
-					various industries, often taking projects from design to deployment.
+					, collaborating with designers, backend engineers, and product leads
+					to bring features from concept to deployment.
 				</p>
 
 				<p className='mb-4'>
-					At an HMO company, I served as the sole frontend developer, building
-					core business tools such as a Waiting Time Tracking System, Staff
-					Management System, and Tariff Management System.
+					Previously, I worked as a frontend developer at an HMO company, where
+					I built core internal tools used daily across multiple departments,
+					ranging from operations to customer support.
 				</p>
 
 				<ul className='list-disc list-inside mb-4 space-y-2'>
 					<li>
-						<span className='font-medium text-slate-200 hover:text-purple-400 focus-visible:text-purple-400 mr-1'>
+						<span className='font-medium text-slate-200 mr-1'>
 							Waiting Time Tracking System (WTTS):
 						</span>
-						Built to monitor and reduce the waiting time of enrollees and
-						patients at hospitals, improving efficiency and patient
-						satisfaction.
+						Helped hospitals reduce enrollee wait time by providing real-time
+						insights and analytics.
 					</li>
 					<li>
-						<span className='font-medium text-slate-200 hover:text-purple-400 focus-visible:text-purple-400 mr-1'>
+						<span className='font-medium text-slate-200 mr-1'>
 							Staff Management System:
 						</span>
-						Developed in-house to replace costly third-party tools. Included
-						features such as performance appraisal, employee onboarding and
-						exit, role management, KPI tracking, and permissions handling.
+						Built in collaboration with HR and leadership teams — included
+						onboarding flows, performance reviews, KPI dashboards, and role
+						permissions.
 					</li>
 					<li>
-						<span className='font-medium text-slate-200 hover:text-purple-400 focus-visible:text-purple-400 mr-1'>
+						<span className='font-medium text-slate-200 mr-1'>
 							Tariff Management System:
 						</span>
-						Automated the lengthy process of handling hospital tariffs by
-						implementing tariff mapping, coding, file previews, and robust data
-						handling features.
+						Redesigned and automated a manual hospital tariff process, enabling
+						faster mapping, uploads, previews, and validation.
 					</li>
 				</ul>
 
 				<p className='mb-4'>
-					Beyond this, I’ve also taken on freelance and contract work, building
-					tailored digital products that merge thoughtful design with scalable
-					engineering solutions.
+					I also take on freelance and contract work, where I partner with
+					startups and small teams to design and ship fast, scalable digital
+					products.
 				</p>
 
 				<p className='mb-4'>
-					In my spare time, I enjoy reading books, hanging out with friends, and
-					exploring{' '}
+					Outside of work, you’ll probably find me reading, hanging out with
+					friends, or exploring{' '}
 					<span className='inline-flex cursor-pointer font-medium text-slate-200 group'>
 						{'blockchain'.split('').map((char, index) => {
 							const colors = [
