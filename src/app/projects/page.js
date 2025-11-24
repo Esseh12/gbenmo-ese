@@ -1,17 +1,18 @@
 'use client';
 
-import React, { useState } from 'react';
+import React from 'react';
 import { Icon } from '@iconify/react';
 import Link from 'next/link';
 import { projects } from '@/app/utils/utils';
 
 export default function ProjectArchive() {
-	const [activeFilter, setActiveFilter] = useState('all');
+	// TODO: Uncomment when you have more integration projects
+	// const [activeFilter, setActiveFilter] = useState('all');
+	// const filteredProjects = activeFilter === 'all'
+	// 	? projects
+	// 	: projects.filter((p) => p.category.toLowerCase() === activeFilter);
 
-	const filteredProjects =
-		activeFilter === 'all'
-			? projects
-			: projects.filter((p) => p.category.toLowerCase() === activeFilter);
+	const filteredProjects = projects;
 
 	return (
 		<div className='min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 text-white'>
@@ -33,8 +34,8 @@ export default function ProjectArchive() {
 				</div>
 			</div>
 
-			{/* Filter Tabs */}
-			<div className='sticky top-0 z-10 bg-slate-900/80 backdrop-blur-md border-b border-slate-800/50'>
+			{/* TODO: Uncomment Filter Tabs when you have more integration projects */}
+			{/* <div className='sticky top-0 z-10 bg-slate-900/80 backdrop-blur-md border-b border-slate-800/50'>
 				<div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4'>
 					<div className='flex gap-2 sm:gap-4 overflow-x-auto scrollbar-hide'>
 						{[
@@ -67,7 +68,7 @@ export default function ProjectArchive() {
 						))}
 					</div>
 				</div>
-			</div>
+			</div> */}
 
 			{/* Table */}
 			<div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12'>

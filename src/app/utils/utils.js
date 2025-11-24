@@ -12,7 +12,7 @@ export const projects = [
 			'Superbase',
 			'PostgreSQL',
 		],
-		link: 'dashboard-primedev.vercel.app/',
+		link: 'dashboard-primedev.vercel.app/dashboard',
 	},
 	{
 		id: 2,
