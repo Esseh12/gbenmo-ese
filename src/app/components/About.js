@@ -12,7 +12,7 @@ export default function About() {
 
 			<div className='text-[#8b9cba]'>
 				<p className='mb-4'>
-					I’m a frontend developer with a focus on building accessible,
+					I’m a fullstack developer with a focus on building accessible,
 					pixel-perfect interfaces that blend thoughtful design with clean,
 					maintainable engineering. I enjoy working at the intersection of
 					design and development — turning ideas into smooth, user-centered

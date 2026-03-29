@@ -75,7 +75,7 @@ export default function Header() {
 					<Link href='/'>Ese Gbenmo</Link>
 				</h1>
 				<h2 className='mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl'>
-					Front End Engineer
+					Full Stack Engineer
 				</h2>
 				<p className='mt-4 max-w-xs leading-normal text-[#8b9cba]'>
 					I build user-friendly, pixel-perfect web applications with a strong
