@@ -78,7 +78,7 @@ export default function Experience() {
 				<div className='mt-12'>
 					<a
 						className='inline-flex items-baseline leading-tight text-slate-200 hover:text-purple-400 focus-visible:text-purple-400 font-semibold  group/link text-base'
-						href='/Ese-Gbenmo-frontend-engineer.pdf'
+						href='/Ese_Gbenmo_Fullstack_Resume.pdf'
 						target='_blank'
 						rel='noreferrer noopener'
 						aria-label='View Full Résumé (opens in a new tab)'>

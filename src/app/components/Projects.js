@@ -4,6 +4,24 @@ import { Icon } from '@iconify/react';
 export default function Projects() {
 	const projects = [
 		{
+			title: 'My Auditor',
+			description:
+				'A digital audio marketplace connecting music creators with buyers seeking licensed audio assets. Features a three-tier licensing model, real-time creator analytics, and a one-time purchase model with no hidden fees or subscriptions.',
+			url: 'https://www.myauditor.live',
+			image: '/auditor.png',
+			alt: 'My Auditor digital audio marketplace homepage',
+			technologies: ['Next.js', 'TypeScript', 'Tailwind CSS'],
+		},
+		{
+			title: 'Rezinos',
+			description:
+				'A modern web platform built for Udala Solutions, delivering a polished and performant user experience with smooth animations and a clean interface.',
+			url: 'https://www.rezinos.com',
+			image: '/rezinos.png',
+			alt: 'Rezinos homepage',
+			technologies: ['Next.js', 'JavaScript', 'Tailwind CSS', 'Framer Motion'],
+		},
+		{
 			title: 'Trevor Project',
 			description:
 				'A safe space and support website for the LGBTQ+ community, designed and built with React and Tailwind CSS to provide accessibility and responsiveness.',
@@ -20,24 +38,6 @@ export default function Projects() {
 			image: '/wfj-lawfirm.png',
 			alt: 'WFJ Law Firm website homepage',
 			technologies: ['React', 'Tailwind CSS'],
-		},
-		{
-			title: 'Leewo Jones',
-			description:
-				'An e-commerce platform for photography products. Designed and developed a clean, minimal interface with React and Tailwind CSS to ensure smooth user experience.',
-			url: 'https://leewo-jones.vercel.app/',
-			image: '/leewo-jones.png',
-			alt: 'Leewo Jones photography e-commerce homepage',
-			technologies: ['React', 'Tailwind CSS'],
-		},
-		{
-			title: 'Metafora',
-			description:
-				'An aggregate transport platform MVP that lets users compare prices and book smooth trips from different transport companies directly on their phones.',
-			url: 'https://metafora-eta.vercel.app/',
-			image: '/metafora.png',
-			alt: 'Metafora transport platform homepage',
-			technologies: ['React', 'Tailwind CSS', 'JavaScript'],
 		},
 	];
 

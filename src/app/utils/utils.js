@@ -1,5 +1,14 @@
 export const projects = [
 	{
+		id: 0,
+		year: 2026,
+		name: 'My Auditor',
+		category: 'Integration',
+		company: 'Personal',
+		technologies: ['Next.js', 'TypeScript', 'Tailwind CSS'],
+		link: 'www.myauditor.live',
+	},
+	{
 		id: 1,
 		year: 2026,
 		name: 'Click It Raffle Draw system',
@@ -34,15 +43,6 @@ export const projects = [
 		company: 'Personal',
 		technologies: ['React js', 'Bootstrap css'],
 		link: 'https://salariopay.com',
-	},
-	{
-		id: 5,
-		year: 2025,
-		name: 'Primedev Marketing site',
-		category: 'Design',
-		company: 'Primedev Academy',
-		technologies: ['Next js', 'Bootstrap css', 'Framer Motion'],
-		link: 'www.primedev-academy.vercel.app/',
 	},
 	{
 		id: 6,
@@ -90,25 +90,25 @@ export const projects = [
 		technologies: ['React Js', 'Framer Motion', 'Tailwind CSS'],
 		link: 'www.wfjlawfirm.vercel.app',
 	},
-	{
-		id: 11,
-		year: 2023,
-		name: 'Wfj Lawfirm',
-		category: 'Design',
-		company: 'Personal',
-		technologies: ['Html5', 'Framer Motion', 'Bootstrap CSS'],
-		link: 'www.skillboost-academy.vercel.app',
-	},
 ];
 
 export const experiences = [
 	{
-		period: 'May 2024 – Present',
+		period: 'Dec 2024 – Present',
+		title: 'Frontend Engineer',
+		company: 'Udala Solutions',
+		companyUrl: '#',
+		description:
+			'Built and maintained scalable frontend solutions for multiple client products, including a lottery system and a media streaming platform. Developed responsive, user-friendly interfaces and implemented core features independently, ensuring smooth user flows and reliable performance across web applications.',
+		technologies: ['React', 'TypeScript', 'JavaScript', 'HTML', 'CSS'],
+	},
+	{
+		period: 'June 2024 – Present',
 		title: 'Frontend Engineer',
 		company: 'Salariopay',
 		companyUrl: 'https://salariopay.com',
 		description:
-			'Building and maintaining user-facing features for payroll and HR tools. Led the development of the Integration Marketplace, enabling users to connect with third-party HR and finance tools. Worked closely with designers and backend engineers to deliver pixel-perfect, high-performance interfaces.',
+			'Building and maintaining user-facing features for the company\'s payroll and HR tools. Led the development of the Integration Marketplace, enabling users to explore and connect with third-party HR and finance tools. Collaborated closely with designers and backend engineers to deliver pixel-perfect, high-performance interfaces, and ensured seamless API integration, accessibility, and responsive design across devices.',
 		technologies: [
 			'React',
 			'Redux',
@@ -119,38 +119,12 @@ export const experiences = [
 		],
 	},
 	{
-		period: 'Jan 2022 – Apr 2024',
+		period: 'Jan 2022 – June 2024',
 		title: 'Software Developer',
 		company: 'Metro Health HMO',
 		companyUrl: 'https://metrohealthhmo.com',
 		description:
-			'Built in-house software to streamline operations and improve business workflows. Developed an HR onboarding system used across the organization. Collaborated with cross-functional teams to deliver scalable and user-friendly solutions.',
+			'Built core in-house software to streamline operations and improve business workflows. Developed an HR onboarding system to digitize and simplify employee intake. Collaborated with cross-functional teams to deliver scalable, user-friendly solutions.',
 		technologies: ['JavaScript', 'TypeScript', 'React', 'Node.js', 'Next.js'],
-	},
-	{
-		period: 'Oct 2021 – Dec 2021',
-		title: 'Frontend Engineer',
-		company: 'Mauritius Commercial Bank (MCB)',
-		companyUrl: 'https://www.mcbgroup.com',
-		description:
-			'Migrated the company website from plain HTML/CSS/JS to React, improving maintainability and performance. Built reusable, responsive UI components and implemented new front-end features independently.',
-		technologies: ['React', 'TypeScript', 'JavaScript', 'HTML', 'CSS'],
-	},
-	{
-		period: 'Oct 2021 – Dec 2021',
-		title: 'Frontend Engineering Trainee',
-		company: 'ALX Africa',
-		companyUrl: 'https://www.alxafrica.com',
-		description:
-			'Completed an intensive software engineering program focused on modern frontend development, collaboration, version control, and real-world project delivery.',
-		technologies: [
-			'JavaScript',
-			'React',
-			'Git',
-			'Agile',
-			'Team Collaboration',
-			'C',
-			'Python',
-		],
 	},
 ];
