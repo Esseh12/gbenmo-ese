@@ -1,5 +1,14 @@
 export const projects = [
 	{
+		id: 11,
+		year: 2026,
+		name: 'SkillBoost Academy',
+		category: 'Integration',
+		company: 'Personal',
+		technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Auth.js'],
+		link: 'www.celpipskillboostacademy.com',
+	},
+	{
 		id: 0,
 		year: 2026,
 		name: 'My Auditor',
@@ -94,21 +103,12 @@ export const projects = [
 
 export const experiences = [
 	{
-		period: 'Dec 2024 – Present',
-		title: 'Frontend Engineer',
-		company: 'Udala Solutions',
-		companyUrl: '#',
-		description:
-			'Built and maintained scalable frontend solutions for multiple client products, including a lottery system and a media streaming platform. Developed responsive, user-friendly interfaces and implemented core features independently, ensuring smooth user flows and reliable performance across web applications.',
-		technologies: ['React', 'TypeScript', 'JavaScript', 'HTML', 'CSS'],
-	},
-	{
-		period: 'June 2024 – Present',
+		period: 'May 2024 – Present',
 		title: 'Frontend Engineer',
 		company: 'Salariopay',
 		companyUrl: 'https://salariopay.com',
 		description:
-			'Building and maintaining user-facing features for the company\'s payroll and HR tools. Led the development of the Integration Marketplace, enabling users to explore and connect with third-party HR and finance tools. Collaborated closely with designers and backend engineers to deliver pixel-perfect, high-performance interfaces, and ensured seamless API integration, accessibility, and responsive design across devices.',
+			'Shipped a full-featured expense management and payment system from zero, giving employers end-to-end control over employee and vendor reimbursements — now a core operational workflow across the platform. Closed the gap between design specs and production by co-building pixel-accurate, high-performance payroll and HR interfaces with designers and backend engineers. Established the API integration patterns and responsive design conventions that now serve as the shared baseline across all user-facing features.',
 		technologies: [
 			'React',
 			'Redux',
@@ -116,15 +116,41 @@ export const experiences = [
 			'JavaScript',
 			'Tailwind CSS',
 			'jQuery',
+			'Next.js',
+			'Bootstrap CSS',
 		],
 	},
 	{
-		period: 'Jan 2022 – June 2024',
+		period: 'March 2023 – Dec 2024',
 		title: 'Software Developer',
 		company: 'Metro Health HMO',
 		companyUrl: 'https://metrohealthhmo.com',
 		description:
-			'Built core in-house software to streamline operations and improve business workflows. Developed an HR onboarding system to digitize and simplify employee intake. Collaborated with cross-functional teams to deliver scalable, user-friendly solutions.',
-		technologies: ['JavaScript', 'TypeScript', 'React', 'Node.js', 'Next.js'],
+			'Delivered a proprietary internal operations platform from the ground up, replacing manual, siloed workflows and consolidating multi-department processes into a single system that measurably improved business throughput. Digitised the full employee onboarding pipeline with an end-to-end HR intake system, eliminating paper-based processes across the organisation. Launched a real-time hospital wait-time tracker deployed across HMO locations, surfacing systemic bottlenecks that drove reductions in enrollee wait times and gave management actionable visibility into care delivery.',
+		technologies: [
+			'TypeScript',
+			'React',
+			'Node.js',
+			'Next.js',
+			'Bootstrap CSS',
+			'Tailwind CSS',
+		],
+	},
+	{
+		period: 'Jan 2022 – Dec 2022',
+		title: 'Software Engineering Trainee',
+		company: 'ALX Africa',
+		companyUrl: 'https://www.alxafrica.com',
+		description:
+			'Graduated from an intensive 12-month, project-based engineering programme, building and deploying multiple production-grade applications across C, Python, JavaScript, and SQL stacks, covering both backend systems and modern frontend frameworks. Developed an aggregator platform for bus transport systems, enabling users to discover routes, compare options, and book bus services seamlessly.',
+		technologies: [
+			'C',
+			'TypeScript',
+			'JavaScript',
+			'Python',
+			'SQL',
+			'Bootstrap CSS',
+			'React',
+		],
 	},
 ];

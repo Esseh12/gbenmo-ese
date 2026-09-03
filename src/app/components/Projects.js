@@ -4,6 +4,15 @@ import { Icon } from '@iconify/react';
 export default function Projects() {
 	const projects = [
 		{
+			title: 'SkillBoost Academy',
+			description:
+				'A CELPIP exam-prep platform where candidates practise Listening, Reading, Writing, and Speaking, sit full mock exams, and get AI-graded feedback. Includes band scoring, session history, and a progress dashboard that tracks performance across every module.',
+			url: 'https://www.celpipskillboostacademy.com/',
+			image: '/skillboost.png',
+			alt: 'SkillBoost Academy CELPIP practice dashboard',
+			technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Auth.js'],
+		},
+		{
 			title: 'My Auditor',
 			description:
 				'A digital audio marketplace connecting music creators with buyers seeking licensed audio assets. Features a three-tier licensing model, real-time creator analytics, and a one-time purchase model with no hidden fees or subscriptions.',
@@ -20,15 +29,6 @@ export default function Projects() {
 			image: '/rezinos.png',
 			alt: 'Rezinos homepage',
 			technologies: ['Next.js', 'JavaScript', 'Tailwind CSS', 'Framer Motion'],
-		},
-		{
-			title: 'Trevor Project',
-			description:
-				'A safe space and support website for the LGBTQ+ community, designed and built with React and Tailwind CSS to provide accessibility and responsiveness.',
-			url: 'https://trevor-project-six.vercel.app/',
-			image: '/trevor-project.png',
-			alt: 'Trevor Project homepage',
-			technologies: ['React', 'Tailwind CSS'],
 		},
 		{
 			title: 'WFJ Law Firm',

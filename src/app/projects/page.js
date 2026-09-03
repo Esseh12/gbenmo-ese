@@ -87,9 +87,6 @@ export default function ProjectArchive() {
 									Category
 								</th> */}
 								<th className='text-left py-4 px-4 text-xs font-semibold text-slate-400 uppercase tracking-wider'>
-									Made at
-								</th>
-								<th className='text-left py-4 px-4 text-xs font-semibold text-slate-400 uppercase tracking-wider'>
 									Built with
 								</th>
 								<th className='text-left py-4 px-4 text-xs font-semibold text-slate-400 uppercase tracking-wider'>
@@ -122,11 +119,6 @@ export default function ProjectArchive() {
 											{project.category}
 										</span>
 									</td> */}
-									<td className='py-6 px-4'>
-										<span className='text-slate-400 text-sm'>
-											{project.company}
-										</span>
-									</td>
 									<td className='py-6 px-4'>
 										<div className='flex flex-wrap gap-2'>
 											{project.technologies.map((tech, idx) => (
@@ -182,9 +174,6 @@ export default function ProjectArchive() {
 							<h3 className='text-xl font-bold text-white mb-2'>
 								{project.name}
 							</h3>
-
-							{/* Company */}
-							<p className='text-slate-400 text-sm mb-4'>{project.company}</p>
 
 							{/* Technologies */}
 							<div className='flex flex-wrap gap-2 mb-4'>

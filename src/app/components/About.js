@@ -20,13 +20,16 @@ export default function About() {
 				</p>
 
 				<p className='mb-4'>
-					Recently, I’ve worked on projects like a{' '}
+					Most recently, I built{' '}
 					<a
 						className='font-medium text-slate-200 hover:text-purple-400 focus-visible:text-purple-400'
-						href='#'>
-						Lottery System
-					</a>{' '}
-					and an{' '}
+						href='https://www.celpipskillboostacademy.com/'
+						target='_blank'
+						rel='noreferrer noopener'>
+						SkillBoost Academy
+					</a>
+					, a CELPIP exam-prep platform with AI-graded practice and full mock
+					exams, alongside work on an{' '}
 					<a
 						className='font-medium text-slate-200 hover:text-purple-400 focus-visible:text-purple-400'
 						href='#'>
@@ -77,7 +80,7 @@ export default function About() {
 					Outside of work, you’ll probably find me reading, hanging out with
 					friends, or exploring{' '}
 					<span className='inline-flex cursor-pointer font-medium text-slate-200 group'>
-						{'blockchain'.split('').map((char, index) => {
+						{'AI development'.split('').map((char, index) => {
 							const colors = [
 								'text-red-400',
 								'text-orange-400',
@@ -97,12 +100,12 @@ export default function About() {
 									className={`transition duration-200 group-hover:-translate-y-px group-hover:${
 										colors[index % colors.length]
 									}`}>
-									{char}
+									{char === ' ' ? ' ' : char}
 								</span>
 							);
 						})}
-					</span>{' '}
-					development.
+					</span>
+					.
 				</p>
 			</div>
 		</section>
