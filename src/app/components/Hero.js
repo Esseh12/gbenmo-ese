@@ -25,12 +25,13 @@ export default function Hero() {
 				</h1>
 
 				<p className='mt-5 inline-block -rotate-2 rounded-md border-3 border-ink bg-sun px-3 py-1 text-lg font-bold shadow-brutal-sm sm:text-xl'>
-					Full Stack Engineer
+					Full Stack &amp; AI Engineer
 				</p>
 
 				<p className='mt-5 max-w-md text-base leading-relaxed text-ink/80 sm:text-lg'>
-					I build user-friendly, pixel-perfect web applications with a strong
-					emphasis on accessibility, performance, and design detail.
+					Software engineer building user-friendly, pixel-perfect web apps and
+					AI-powered products, from frontend to backend, with a strong emphasis
+					on accessibility, performance, and design detail.
 				</p>
 
 				<div className='mt-7 flex flex-wrap gap-3'>
