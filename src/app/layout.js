@@ -1,9 +1,15 @@
-import { Plus_Jakarta_Sans } from 'next/font/google';
+import { Space_Grotesk, Archivo_Black } from 'next/font/google';
 import './globals.css';
 
-const jakartaSans = Plus_Jakarta_Sans({
-	variable: '--font-jakarta-sans',
+const spaceGrotesk = Space_Grotesk({
+	variable: '--font-space',
 	subsets: ['latin'],
+});
+
+const archivoBlack = Archivo_Black({
+	variable: '--font-archivo',
+	subsets: ['latin'],
+	weight: '400',
 });
 
 export const metadata = {
@@ -27,12 +33,23 @@ export const metadata = {
 	},
 };
 
+export const viewport = {
+	themeColor: '#fff8e7',
+};
+
+// Runs before paint so the saved (or system) theme is applied without a flash.
+const themeScript = `try{var t=localStorage.getItem('theme');if(t==='dark'||(!t&&matchMedia('(prefers-color-scheme: dark)').matches))document.documentElement.classList.add('dark')}catch(e){}`;
+
 export default function RootLayout({ children }) {
 	return (
-		<html lang='en'>
-			<body className={` ${jakartaSans.className} antialiased`}>
-				{children}
-			</body>
+		<html
+			lang='en'
+			suppressHydrationWarning
+			className={`${spaceGrotesk.variable} ${archivoBlack.variable}`}>
+			<head>
+				<script dangerouslySetInnerHTML={{ __html: themeScript }} />
+			</head>
+			<body className='font-sans antialiased'>{children}</body>
 		</html>
 	);
 }

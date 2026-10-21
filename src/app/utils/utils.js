@@ -1,3 +1,25 @@
+export const email = 'gbenmoese788@gmail.com';
+
+export const socialLinks = [
+	{ name: 'GitHub', href: 'https://github.com/Esseh12', icon: 'mdi:github' },
+	{
+		name: 'LinkedIn',
+		href: 'https://www.linkedin.com/in/gbenmoese/',
+		icon: 'mdi:linkedin',
+	},
+	{
+		name: 'Instagram',
+		href: 'https://www.instagram.com/gbenmo_ese/',
+		icon: 'ri:instagram-fill',
+	},
+	{ name: 'X (Twitter)', href: 'https://x.com/gbenmo_ese', icon: 'ri:twitter-x-fill' },
+	{
+		name: 'Medium',
+		href: 'https://medium.com/@gbenmoese788',
+		icon: 'ri:medium-fill',
+	},
+];
+
 export const projects = [
 	{
 		id: 11,
@@ -5,7 +27,17 @@ export const projects = [
 		name: 'SkillBoost Academy',
 		category: 'Integration',
 		company: 'Personal',
-		technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Auth.js'],
+		technologies: [
+			'Next.js',
+			'TypeScript',
+			'Tailwind CSS',
+			'Auth.js',
+			'Node.js',
+			'Supabase',
+			'SQL',
+			'Gemini API',
+			'Anthropic API',
+		],
 		link: 'www.celpipskillboostacademy.com',
 	},
 	{
@@ -14,7 +46,7 @@ export const projects = [
 		name: 'My Auditor',
 		category: 'Integration',
 		company: 'Personal',
-		technologies: ['Next.js', 'TypeScript', 'Tailwind CSS'],
+		technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Node.js'],
 		link: 'www.myauditor.live',
 	},
 	{

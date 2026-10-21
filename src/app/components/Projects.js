@@ -1,5 +1,8 @@
 import Image from 'next/image';
 import { Icon } from '@iconify/react';
+import SectionTitle from './SectionTitle';
+
+const colors = ['bg-bubblegum', 'bg-sky', 'bg-mint', 'bg-tangerine'];
 
 export default function Projects() {
 	const projects = [
@@ -10,7 +13,17 @@ export default function Projects() {
 			url: 'https://www.celpipskillboostacademy.com/',
 			image: '/skillboost.png',
 			alt: 'SkillBoost Academy CELPIP practice dashboard',
-			technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Auth.js'],
+			technologies: [
+				'Next.js',
+				'TypeScript',
+				'Tailwind CSS',
+				'Auth.js',
+				'Node.js',
+				'Supabase',
+				'SQL',
+				'Gemini API',
+				'Anthropic API',
+			],
 		},
 		{
 			title: 'My Auditor',
@@ -19,7 +32,7 @@ export default function Projects() {
 			url: 'https://www.myauditor.live',
 			image: '/auditor.png',
 			alt: 'My Auditor digital audio marketplace homepage',
-			technologies: ['Next.js', 'TypeScript', 'Tailwind CSS'],
+			technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Node.js'],
 		},
 		{
 			title: 'Rezinos',
@@ -44,102 +57,76 @@ export default function Projects() {
 	return (
 		<section
 			id='projects'
-			className='mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24'
-			aria-label='Selected projects'>
-			<div className='sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0'>
-				<h2 className='text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only'>
-					Projects
-				</h2>
-			</div>
+			aria-labelledby='projects-title'>
+			<SectionTitle
+				index='03'
+				id='projects-title'
+				color='bg-bubblegum'>
+				Selected projects
+			</SectionTitle>
 
-			<div>
-				<ul className='group/list text-[#8b9cba]'>
-					{projects.map((project, index) => (
-						<li
-							key={index}
-							className='mb-12'>
-							<div className='group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50'>
-								<div className='absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg' />
-
-								<div className='z-10 sm:order-2 sm:col-span-6'>
-									<h3>
-										<a
-											className='inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-purple-400 focus-visible:text-purple-400 group/link text-base'
-											href={project.url}
-											target='_blank'
-											rel='noreferrer noopener'
-											aria-label={`${project.title} (opens in a new tab)`}>
-											<span className='absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block' />
-											<span>
-												{project.title}{' '}
-												<span className='inline-block'>
-													<Icon
-														icon='tabler:arrow-up-right'
-														className='inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px'
-													/>
-												</span>
-											</span>
-										</a>
-									</h3>
-
-									<p className='mt-2 text-sm leading-normal'>
-										{project.description}
-									</p>
-
-									{project.technologies && (
-										<ul
-											className='mt-2 flex flex-wrap'
-											aria-label='Technologies used:'>
-											{project.technologies.map((tech, techIndex) => (
-												<li
-													key={techIndex}
-													className='mr-1.5 mt-2'>
-													<div className='flex items-center rounded-full bg-purple-400/10 px-3 py-1 text-xs font-medium leading-5 text-purple-400'>
-														{tech}
-													</div>
-												</li>
-											))}
-										</ul>
-									)}
-								</div>
-
-								<div className='sm:order-1 sm:col-span-2 sm:translate-y-1'>
+			<ul className='grid gap-6 sm:grid-cols-2'>
+				{projects.map((project, index) => (
+					<li key={project.title}>
+						<article className='brutal brutal-lift group flex h-full flex-col overflow-hidden bg-card'>
+							<div
+								className={`border-b-3 border-ink p-3 ${colors[index % colors.length]}`}>
+								<div className='overflow-hidden rounded-lg border-3 border-ink bg-card'>
 									<Image
-										alt={project.alt}
-										width={200}
-										height={48}
-										className='aspect-video object-cover rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30'
 										src={project.image}
-										loading='lazy'
+										alt={project.alt}
+										width={800}
+										height={450}
+										className='aspect-video w-full object-cover object-top transition-transform duration-300 group-hover:scale-105'
 									/>
 								</div>
 							</div>
-						</li>
-					))}
-				</ul>
 
-				<div className='mt-12'>
-					<a
-						className='inline-flex items-center leading-tight  font-semibold text-slate-200 group'
-						aria-label='View Full Project Archive'
-						href='/projects'>
-						<span>
-							<span className='border-b border-transparent pb-px transition group-hover:border-purple-400 motion-reduce:transition-none'>
-								View Full Project{' '}
-							</span>
-							<span className='whitespace-nowrap'>
-								<span className='border-b border-transparent pb-px transition group-hover:border-purple-400 motion-reduce:transition-none'>
-									Archive
-								</span>
-								<Icon
-									icon='tabler:arrow-right'
-									className='ml-1 inline-block h-4 w-4 shrink-0 -translate-y-px transition-transform group-hover:translate-x-2 group-focus-visible:translate-x-2 motion-reduce:transition-none'
-								/>
-							</span>
-						</span>
-					</a>
-				</div>
-			</div>
+							<div className='flex flex-1 flex-col p-5'>
+								<h3 className='font-display text-xl'>{project.title}</h3>
+								<p className='mt-2 flex-1 text-sm leading-relaxed text-ink/80'>
+									{project.description}
+								</p>
+
+								<ul
+									className='mt-4 flex flex-wrap gap-2'
+									aria-label='Technologies used'>
+									{project.technologies.map((tech) => (
+										<li
+											key={tech}
+											className='tag bg-paper'>
+											{tech}
+										</li>
+									))}
+								</ul>
+
+								<a
+									href={project.url}
+									target='_blank'
+									rel='noreferrer noopener'
+									aria-label={`Visit ${project.title} (opens in a new tab)`}
+									className='brutal-btn mt-5 self-start bg-sun text-sm'>
+									Visit site
+									<Icon
+										icon='tabler:arrow-up-right'
+										className='size-4'
+									/>
+								</a>
+							</div>
+						</article>
+					</li>
+				))}
+			</ul>
+
+			<a
+				href='/projects'
+				className='brutal-btn mt-8 bg-card'>
+				View full project archive
+				<Icon
+					icon='tabler:arrow-right'
+					className='size-4'
+				/>
+			</a>
 		</section>
 	);
 }
