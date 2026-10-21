@@ -1,4 +1,36 @@
+export const siteUrl = 'https://www.gbenmo-ese.com.ng';
+
 export const email = 'gbenmoese788@gmail.com';
+
+export const seo = {
+	name: 'Ese Gbenmo',
+	title: 'Ese Gbenmo — Full Stack, AI & Frontend Engineer',
+	description:
+		'Ese Gbenmo is a full stack software engineer and AI engineer building fast, accessible web apps with React, Next.js, TypeScript, Node.js and LLM APIs like Gemini and Anthropic.',
+	jobTitles: [
+		'Full Stack Engineer',
+		'AI Engineer',
+		'Frontend Engineer',
+		'Software Engineer',
+	],
+	skills: [
+		'React',
+		'Next.js',
+		'TypeScript',
+		'JavaScript',
+		'Node.js',
+		'Tailwind CSS',
+		'Redux',
+		'React Query',
+		'Supabase',
+		'SQL',
+		'Python',
+		'Gemini API',
+		'Anthropic API',
+		'LLM integration',
+		'Web accessibility',
+	],
+};
 
 export const socialLinks = [
 	{ name: 'GitHub', href: 'https://github.com/Esseh12', icon: 'mdi:github' },
